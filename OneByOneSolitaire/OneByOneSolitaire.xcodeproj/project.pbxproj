@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* OneByOneSolitaireAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* OneByOneSolitaireAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* OneByOneSolitaireViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* OneByOneSolitaireViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* OneByOneSolitaireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* OneByOneSolitaireViewController.m */; };
+		3BD60E2915C6D28A0083467C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD60E2815C6D28A0083467C /* libsqlite3.dylib */; };
+		A1052E7E128699F1005D9011 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1052E7D128699F1005D9011 /* icon.png */; };
+		A158FE3C127D1377006E718A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE25127D1377006E718A /* background.png */; };
+		A158FE3D127D1377006E718A /* bals-with-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE26127D1377006E718A /* bals-with-shadow.png */; };
+		A158FE3E127D1377006E718A /* bolita-azul-vidrio-sombra.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE27127D1377006E718A /* bolita-azul-vidrio-sombra.png */; };
+		A158FE3F127D1377006E718A /* bolita-azul-vidrio.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE28127D1377006E718A /* bolita-azul-vidrio.png */; };
+		A158FE40127D1377006E718A /* bolita-blanca-celeste-amarilla-sombra.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE29127D1377006E718A /* bolita-blanca-celeste-amarilla-sombra.png */; };
+		A158FE41127D1377006E718A /* bolita-blanca-celeste-amarilla.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE2A127D1377006E718A /* bolita-blanca-celeste-amarilla.png */; };
+		A158FE42127D1377006E718A /* bolita-blanco-negro-sombra.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE2B127D1377006E718A /* bolita-blanco-negro-sombra.png */; };
+		A158FE43127D1377006E718A /* bolita-blanco-negro.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE2C127D1377006E718A /* bolita-blanco-negro.png */; };
+		A158FE44127D1377006E718A /* bolita-lechera-sombra.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE2D127D1377006E718A /* bolita-lechera-sombra.png */; };
+		A158FE45127D1377006E718A /* bolita-lechera.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE2E127D1377006E718A /* bolita-lechera.png */; };
+		A158FE46127D1377006E718A /* bolita-madera-clara-sombra.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE2F127D1377006E718A /* bolita-madera-clara-sombra.png */; };
+		A158FE47127D1377006E718A /* bolita-madera-clara.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE30127D1377006E718A /* bolita-madera-clara.png */; };
+		A158FE48127D1377006E718A /* bolita-madera-oscura-sombra.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE31127D1377006E718A /* bolita-madera-oscura-sombra.png */; };
+		A158FE49127D1377006E718A /* bolita-madera-oscura.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE32127D1377006E718A /* bolita-madera-oscura.png */; };
+		A158FE4A127D1377006E718A /* bolita-sombra.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE33127D1377006E718A /* bolita-sombra.png */; };
+		A158FE4B127D1377006E718A /* bolita-vidrio-sombra.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE34127D1377006E718A /* bolita-vidrio-sombra.png */; };
+		A158FE4C127D1377006E718A /* bolita-vidrio.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE35127D1377006E718A /* bolita-vidrio.png */; };
+		A158FE4D127D1377006E718A /* bolita.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE36127D1377006E718A /* bolita.png */; };
+		A158FE4E127D1377006E718A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE37127D1377006E718A /* Default.png */; };
+		A158FE4F127D1377006E718A /* hollo.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE38127D1377006E718A /* hollo.png */; };
+		A158FE50127D1377006E718A /* hollos.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE39127D1377006E718A /* hollos.png */; };
+		A158FE51127D1377006E718A /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE3A127D1377006E718A /* shadow.png */; };
+		A158FE52127D1377006E718A /* small-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = A158FE3B127D1377006E718A /* small-shadow.png */; };
+		A158FE57127D13B2006E718A /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = A158FE54127D13B2006E718A /* Ball.m */; };
+		A158FE58127D13B2006E718A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A158FE56127D13B2006E718A /* SettingsViewController.m */; };
+		A158FE5A127D13C8006E718A /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = A158FE59127D13C8006E718A /* Settings.xib */; };
+		A15D0610127D3284004F52F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D060F127D3284004F52F9 /* QuartzCore.framework */; };
+		A163FB33137FEE7900C48E45 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A163FB32137FEE7900C48E45 /* DataBase.m */; };
+		A1D05C36140D601B00D796A4 /* by1by1solitaire.db in Resources */ = {isa = PBXBuildFile; fileRef = A1448AD8138C5AD9002625B0 /* by1by1solitaire.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* OneByOneSolitaireAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneByOneSolitaireAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* OneByOneSolitaireAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneByOneSolitaireAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* OneByOneSolitaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneByOneSolitaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* OneByOneSolitaireViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneByOneSolitaireViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* OneByOneSolitaireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneByOneSolitaireViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* OneByOneSolitaireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneByOneSolitaireViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* OneByOneSolitaire_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneByOneSolitaire_Prefix.pch; sourceTree = "<group>"; };
+		3BD60E2815C6D28A0083467C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = Platforms/iPhoneOS.platform/DeviceSupport/3.1/Symbols/usr/lib/libsqlite3.dylib; sourceTree = DEVELOPER_DIR; };
+		8D1107310486CEB800E47090 /* OneByOneSolitaire-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OneByOneSolitaire-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A1052E7D128699F1005D9011 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A1448AD8138C5AD9002625B0 /* by1by1solitaire.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = by1by1solitaire.db; sourceTree = "<group>"; };
+		A158FE25127D1377006E718A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		A158FE26127D1377006E718A /* bals-with-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bals-with-shadow.png"; sourceTree = "<group>"; };
+		A158FE27127D1377006E718A /* bolita-azul-vidrio-sombra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-azul-vidrio-sombra.png"; sourceTree = "<group>"; };
+		A158FE28127D1377006E718A /* bolita-azul-vidrio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-azul-vidrio.png"; sourceTree = "<group>"; };
+		A158FE29127D1377006E718A /* bolita-blanca-celeste-amarilla-sombra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-blanca-celeste-amarilla-sombra.png"; sourceTree = "<group>"; };
+		A158FE2A127D1377006E718A /* bolita-blanca-celeste-amarilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-blanca-celeste-amarilla.png"; sourceTree = "<group>"; };
+		A158FE2B127D1377006E718A /* bolita-blanco-negro-sombra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-blanco-negro-sombra.png"; sourceTree = "<group>"; };
+		A158FE2C127D1377006E718A /* bolita-blanco-negro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-blanco-negro.png"; sourceTree = "<group>"; };
+		A158FE2D127D1377006E718A /* bolita-lechera-sombra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-lechera-sombra.png"; sourceTree = "<group>"; };
+		A158FE2E127D1377006E718A /* bolita-lechera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-lechera.png"; sourceTree = "<group>"; };
+		A158FE2F127D1377006E718A /* bolita-madera-clara-sombra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-madera-clara-sombra.png"; sourceTree = "<group>"; };
+		A158FE30127D1377006E718A /* bolita-madera-clara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-madera-clara.png"; sourceTree = "<group>"; };
+		A158FE31127D1377006E718A /* bolita-madera-oscura-sombra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-madera-oscura-sombra.png"; sourceTree = "<group>"; };
+		A158FE32127D1377006E718A /* bolita-madera-oscura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-madera-oscura.png"; sourceTree = "<group>"; };
+		A158FE33127D1377006E718A /* bolita-sombra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-sombra.png"; sourceTree = "<group>"; };
+		A158FE34127D1377006E718A /* bolita-vidrio-sombra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-vidrio-sombra.png"; sourceTree = "<group>"; };
+		A158FE35127D1377006E718A /* bolita-vidrio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bolita-vidrio.png"; sourceTree = "<group>"; };
+		A158FE36127D1377006E718A /* bolita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bolita.png; sourceTree = "<group>"; };
+		A158FE37127D1377006E718A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A158FE38127D1377006E718A /* hollo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hollo.png; sourceTree = "<group>"; };
+		A158FE39127D1377006E718A /* hollos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hollos.png; sourceTree = "<group>"; };
+		A158FE3A127D1377006E718A /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
+		A158FE3B127D1377006E718A /* small-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "small-shadow.png"; sourceTree = "<group>"; };
+		A158FE53127D13B2006E718A /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		A158FE54127D13B2006E718A /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
+		A158FE55127D13B2006E718A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A158FE56127D13B2006E718A /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		A158FE59127D13C8006E718A /* Settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Settings.xib; path = Classes/Settings.xib; sourceTree = "<group>"; };
+		A15D060F127D3284004F52F9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A163FB31137FEE7900C48E45 /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		A163FB32137FEE7900C48E45 /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				A15D0610127D3284004F52F9 /* QuartzCore.framework in Frameworks */,
+				3BD60E2915C6D28A0083467C /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A158FE53127D13B2006E718A /* Ball.h */,
+				A158FE54127D13B2006E718A /* Ball.m */,
+				A158FE55127D13B2006E718A /* SettingsViewController.h */,
+				A158FE56127D13B2006E718A /* SettingsViewController.m */,
+				1D3623240D0F684500981E51 /* OneByOneSolitaireAppDelegate.h */,
+				1D3623250D0F684500981E51 /* OneByOneSolitaireAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* OneByOneSolitaireViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* OneByOneSolitaireViewController.m */,
+				A163FB31137FEE7900C48E45 /* DataBase.h */,
+				A163FB32137FEE7900C48E45 /* DataBase.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* OneByOneSolitaire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* OneByOneSolitaire_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1448AD8138C5AD9002625B0 /* by1by1solitaire.db */,
+				A158FE59127D13C8006E718A /* Settings.xib */,
+				2899E5210DE3E06400AC0155 /* OneByOneSolitaireViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* OneByOneSolitaire-Info.plist */,
+				A158FE24127D132F006E718A /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BD60E2815C6D28A0083467C /* libsqlite3.dylib */,
+				A15D060F127D3284004F52F9 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A158FE24127D132F006E718A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A1052E7D128699F1005D9011 /* icon.png */,
+				A158FE25127D1377006E718A /* background.png */,
+				A158FE26127D1377006E718A /* bals-with-shadow.png */,
+				A158FE27127D1377006E718A /* bolita-azul-vidrio-sombra.png */,
+				A158FE28127D1377006E718A /* bolita-azul-vidrio.png */,
+				A158FE29127D1377006E718A /* bolita-blanca-celeste-amarilla-sombra.png */,
+				A158FE2A127D1377006E718A /* bolita-blanca-celeste-amarilla.png */,
+				A158FE2B127D1377006E718A /* bolita-blanco-negro-sombra.png */,
+				A158FE2C127D1377006E718A /* bolita-blanco-negro.png */,
+				A158FE2D127D1377006E718A /* bolita-lechera-sombra.png */,
+				A158FE2E127D1377006E718A /* bolita-lechera.png */,
+				A158FE2F127D1377006E718A /* bolita-madera-clara-sombra.png */,
+				A158FE30127D1377006E718A /* bolita-madera-clara.png */,
+				A158FE31127D1377006E718A /* bolita-madera-oscura-sombra.png */,
+				A158FE32127D1377006E718A /* bolita-madera-oscura.png */,
+				A158FE33127D1377006E718A /* bolita-sombra.png */,
+				A158FE34127D1377006E718A /* bolita-vidrio-sombra.png */,
+				A158FE35127D1377006E718A /* bolita-vidrio.png */,
+				A158FE36127D1377006E718A /* bolita.png */,
+				A158FE37127D1377006E718A /* Default.png */,
+				A158FE38127D1377006E718A /* hollo.png */,
+				A158FE39127D1377006E718A /* hollos.png */,
+				A158FE3A127D1377006E718A /* shadow.png */,
+				A158FE3B127D1377006E718A /* small-shadow.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* OneByOneSolitaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "OneByOneSolitaire" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneByOneSolitaire;
+			productName = OneByOneSolitaire;
+			productReference = 1D6058910D05DD3D006BFB54 /* OneByOneSolitaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OneByOneSolitaire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* OneByOneSolitaire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* OneByOneSolitaireViewController.xib in Resources */,
+				A158FE3C127D1377006E718A /* background.png in Resources */,
+				A158FE3D127D1377006E718A /* bals-with-shadow.png in Resources */,
+				A158FE3E127D1377006E718A /* bolita-azul-vidrio-sombra.png in Resources */,
+				A158FE3F127D1377006E718A /* bolita-azul-vidrio.png in Resources */,
+				A158FE40127D1377006E718A /* bolita-blanca-celeste-amarilla-sombra.png in Resources */,
+				A158FE41127D1377006E718A /* bolita-blanca-celeste-amarilla.png in Resources */,
+				A158FE42127D1377006E718A /* bolita-blanco-negro-sombra.png in Resources */,
+				A158FE43127D1377006E718A /* bolita-blanco-negro.png in Resources */,
+				A158FE44127D1377006E718A /* bolita-lechera-sombra.png in Resources */,
+				A158FE45127D1377006E718A /* bolita-lechera.png in Resources */,
+				A158FE46127D1377006E718A /* bolita-madera-clara-sombra.png in Resources */,
+				A158FE47127D1377006E718A /* bolita-madera-clara.png in Resources */,
+				A158FE48127D1377006E718A /* bolita-madera-oscura-sombra.png in Resources */,
+				A158FE49127D1377006E718A /* bolita-madera-oscura.png in Resources */,
+				A158FE4A127D1377006E718A /* bolita-sombra.png in Resources */,
+				A158FE4B127D1377006E718A /* bolita-vidrio-sombra.png in Resources */,
+				A158FE4C127D1377006E718A /* bolita-vidrio.png in Resources */,
+				A158FE4D127D1377006E718A /* bolita.png in Resources */,
+				A158FE4E127D1377006E718A /* Default.png in Resources */,
+				A158FE4F127D1377006E718A /* hollo.png in Resources */,
+				A158FE50127D1377006E718A /* hollos.png in Resources */,
+				A158FE51127D1377006E718A /* shadow.png in Resources */,
+				A158FE52127D1377006E718A /* small-shadow.png in Resources */,
+				A158FE5A127D13C8006E718A /* Settings.xib in Resources */,
+				A1052E7E128699F1005D9011 /* icon.png in Resources */,
+				A1D05C36140D601B00D796A4 /* by1by1solitaire.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* OneByOneSolitaireAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* OneByOneSolitaireViewController.m in Sources */,
+				A158FE57127D13B2006E718A /* Ball.m in Sources */,
+				A158FE58127D13B2006E718A /* SettingsViewController.m in Sources */,
+				A163FB33137FEE7900C48E45 /* DataBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OneByOneSolitaire_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "OneByOneSolitaire-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/DeviceSupport/4.2/Symbols/usr/lib\"",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/DeviceSupport/3.1/Symbols/usr/lib\"",
+				);
+				PRODUCT_NAME = OneByOneSolitaire;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OneByOneSolitaire_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "OneByOneSolitaire-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/DeviceSupport/4.2/Symbols/usr/lib\"",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/DeviceSupport/3.1/Symbols/usr/lib\"",
+				);
+				PRODUCT_NAME = OneByOneSolitaire;
+			};
+			name = Release;
+		};
+		A1DB1E6313D0492F009CDEE3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		A1DB1E6413D0492F009CDEE3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OneByOneSolitaire_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "OneByOneSolitaire-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/DeviceSupport/4.2/Symbols/usr/lib\"",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/DeviceSupport/3.1/Symbols/usr/lib\"",
+				);
+				PRODUCT_NAME = OneByOneSolitaire;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2.2;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "OneByOneSolitaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				A1DB1E6413D0492F009CDEE3 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OneByOneSolitaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				A1DB1E6313D0492F009CDEE3 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
